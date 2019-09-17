@@ -1,0 +1,113 @@
+
+body {
+    background-color:#E6E6FA;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    background-color:white;
+    align-items: center;
+    border:1px solid slategray; 
+    color: grey;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 250%;
+    max-height: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left:20px;
+    padding-right: 20px;
+    position: relative;
+    width: 80%;
+}
+.copyright{
+    align-content: center;
+    background-color: #778899;
+    border-top: 3px solid darkgrey;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    height: 40px;
+    justify-content: center;
+    line-height: 400%;
+    margin-top: 100%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+h1{
+    padding-left:10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.head-container { 
+    align-items: center; 
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 30px;
+    position: relative;
+    width: 80%;
+}
+
+.link{
+    margin: 5px;
+}
+
+.name{
+    align-content: space-between;
+    background-color:#778899;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    height:70%;
+    left:-20px;
+    line-height: 300%;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding-left:15px;
+    padding-right: 15px;
+    position: absolute;
+    
+}
+.nav {
+    display: flow-root;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+    line-height: 300%;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom:15px;
+    padding-left:15px;
+    position: absolute;
+    right: 25px;
+}
+
+.profilepic {
+    float: left;
+    margin-top: 0px;
+    max-height:300px;
+    max-width: 400px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    
+}
+.wrapper{
+    max-width:80%;
+}
